@@ -8,8 +8,6 @@ public class MarketStore {
 	private DiscountCard discountCard;
 	private double turnover;
 	
-	
-	
 	public MarketStore() {
 		
 	}
@@ -44,11 +42,5 @@ public class MarketStore {
 	public String toString() {
 		return "PurchaseValue: $" + purchaseValue + "\nDiscount rate: " + discountCard.calculateDiscountRate(turnover) + "%\nDiscount: $" + getDiscount() + "\nTotal: " + (purchaseValue - getDiscount());
 	}
-	
-	
-	
-	
-	
-	
 
 }

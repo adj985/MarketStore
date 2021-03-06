@@ -13,8 +13,6 @@ public class SilverCard extends DiscountCard {
 		// TODO Auto-generated constructor stub
 	}
 	
-	
-
 	public SilverCard(double turnover) {
 		super(turnover);
 	}
@@ -22,7 +20,6 @@ public class SilverCard extends DiscountCard {
 	public int getInitialDiscount() {
 		return initialDiscount;
 	}
-
 
 	@Override
 	public double calculateDiscountRate(double turnover) {

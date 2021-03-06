@@ -14,8 +14,8 @@ public class Main {
 		double silverTurnover = 600;
 		double silverPurchaseValue = 850;
 		
-		double goldTurnover = 1500;
-		double goldPurchaseValue = 1300;
+		double goldTurnover = 800;
+		double goldPurchaseValue = 1000;
 		
 		
 		MarketStore msBronze = new MarketStore(bronzePurchaseValue, new BronzeCard(bronzeTurnover), bronzeTurnover);

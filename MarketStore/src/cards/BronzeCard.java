@@ -4,10 +4,8 @@ public class BronzeCard extends DiscountCard {
 
 	private final int initialDiscount = 0;
 	
-	public BronzeCard() {
-
-	}
-
+	public BronzeCard() {}
+	
 	public BronzeCard(String owner, double turnover) {
 		super(owner, turnover);
 	}
@@ -15,13 +13,11 @@ public class BronzeCard extends DiscountCard {
 	public BronzeCard(double turnover) {
 		super(turnover);
 	}
-	
 
 	public int getInitialDiscount() {
 		return initialDiscount;
 	}
 
-	
 	@Override
 	public double calculateDiscountRate(double turnover) {
 		double discountRate = getInitialDiscount();
@@ -31,8 +27,6 @@ public class BronzeCard extends DiscountCard {
 		} else if(turnover > 300) {
 			discountRate = 2.5;
 		}
-		
-		
 		return discountRate;
 	}
 

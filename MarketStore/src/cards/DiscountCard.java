@@ -1,10 +1,8 @@
 package cards;
 
 public abstract class DiscountCard {
-
 	
-	
-	private String owner;
+	private String owner; 
 	private double turnover;
 	
 	public DiscountCard() {}
@@ -14,8 +12,6 @@ public abstract class DiscountCard {
 		this.turnover = turnover;
 	}
 	
-	
-
 	public DiscountCard(double turnover) {
 		this.turnover = turnover;
 	}
